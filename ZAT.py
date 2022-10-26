@@ -132,9 +132,9 @@ def slowprint(s):
         sys.stdout.flush()
         time.sleep(8. / 100)
 print("\033[1;37m+-------------------------------------------------+")
-slowprint('''\033[1;33m|  Welcome To Zeeshan Altaf tricks           |
-|           Subscribe Our YouTube Channel         |
-| Watch Ours Tutorials For Learn Zeeshan Altaf tricks  |''')
+slowprint('''\033[1;33m|  Welcome To Zeeshan Altaf tricks |
+|           Subscribe Our YouTube Channel |
+| Watch Our Tutorials For Learn Zeeshan Altaf tricks |''')
 print("+-------------------------------------------------+")
 
 
