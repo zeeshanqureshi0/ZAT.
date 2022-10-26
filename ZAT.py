@@ -67,11 +67,11 @@ slowprint(''' \033[1;32m
 [37] unrar
 [38] proot
 [39] golang''')
-slowprint('''\033[96m
+slowprint('''\033[1;37m
 This Command for access Storage in Termux
 [00] termux-setup-storage''')
 print ("                                            ")
-choice = input("\033[93mDo You Want to Install All Packages [y/n] : ")
+choice = input("\033[1;36mmDo You Want to Install All Packages [y/n] : ")
 if choice == 'n' : sys.exit()
 if choice == 'y' : os.system ("apt update")
 os.system ("apt upgrade -y")
@@ -130,7 +130,7 @@ def slowprint(s):
         sys.stdout.flush()
         time.sleep(8. / 100)
 print("\033[1;37m+-------------------------------------------------+")
-slowprint('''\033[95m|  Welcome To Zeeshan Altaf tricks           |
+slowprint('''\033[1;37m|  Welcome To Zeeshan Altaf tricks           |
 |           Subscribe Our YouTube Channel         |
 | Watch Ours Tutorials For Learn Zeeshan Altaf tricks  |''')
 print("+-------------------------------------------------+")
