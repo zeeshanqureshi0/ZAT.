@@ -6,11 +6,11 @@ import sys
 
 os.system("clear")
 
-print('''\033[91m
-            _____   _  _____ 
-            |__  /  / \|_   _|
-          / /  / _ \ | |  
-        / /_ / ___ \| |  
+print('''\033[1;37m
+         _____ _  _____ 
+        |__/  / \|_   _|
+        / /  / _ \ | |  
+       / /_ / ___ \| |  
       /____/_/   \_\_|  
                                                                                                                                                        
 CREATED BY ZEESHAN_ALTAF
@@ -21,14 +21,14 @@ def slowprint(s):
         sys.stdout.flush()
         time.sleep(5. / 100)
 
-print (''' \033[95m
+print (''' \033[1;31m
 +--------------------------------------+
 | This Tool Install All Termux  Basic Packages |
 +--------------------------------------+
 | Coded By ZEESHAN ALTAF |version : 1.1  |
 +--------------------------------------+''')
 
-slowprint(''' \033[93m
+slowprint(''' \033[1;32m
 [01] python
 [02] python2
 [03] python-dev
@@ -129,7 +129,7 @@ def slowprint(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(8. / 100)
-print("\033[95m+-------------------------------------------------+")
+print("\033[1;37m+-------------------------------------------------+")
 slowprint('''\033[95m|  Welcome To Zeeshan Altaf tricks           |
 |           Subscribe Our YouTube Channel         |
 | Watch Ours Tutorials For Learn Zeeshan Altaf tricks  |''')
