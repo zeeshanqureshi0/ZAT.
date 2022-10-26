@@ -7,13 +7,15 @@ import sys
 os.system("clear")
 
 print('''\033[1;37m
-         _____ _  _____ 
-        |__/  / \|_   _|
-        / /  / _ \ | |  
-       / /_ / ___ \| |  
-      /____/_/   \_\_|  
-                                                                                                                                                       
-CREATED BY ZEESHAN_ALTAF
+                   
+       d88888D  .d8b.  d888888b 
+       YP  d8' d8' `8b `~~88~~' 
+          d8'  88ooo88    88    
+         d8'   88~~~88    88    
+        d8' db 88   88    88    
+       d88888P YP   YP    YP    
+                                                                                                                                                                              
+CREATED BY ZEESHAN ALTAF
 ''')
 def slowprint(s):
     for c in s + '\n' :
